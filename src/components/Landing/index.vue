@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import LandingBg from './bg'
-import LandingDialog from './dialog'
+import LandingBg from './BG'
+import LandingDialog from './Dialog'
 
 export default {
   name: 'Landing',
