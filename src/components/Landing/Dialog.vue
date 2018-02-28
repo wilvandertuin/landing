@@ -5,12 +5,10 @@
     <h1>Jeroen van der Tuin</h1>
     <h2>Remote Front-end Web App Developer</h2>
 
-    <ul class="trending">
-      <li>Vue.js</li>
-      <li>CSS Grid</li>
-      <li>VS Code</li>
-      <li><img src="@/assets/emoji-rock.png" class="emoji" alt=""/></li>
-    </ul>
+    <p>
+      Currently trending topics:  Vue.js, CSS Grid, VS Code
+      <img src="@/assets/emoji-rock.png" class="emoji" alt=""/>
+    </p>
 
     <p>
       <a class="email" href="mailto:jeroen@vandertuin.nl">jeroen@vandertuin.nl</a>
@@ -104,20 +102,7 @@ h2 {
   max-width: 200px;
 }
 
-.trending {
-  margin: 0;
-  padding: 0 50px;
-}
-
-.trending li {
-  display: inline;
-}
-
-.trending li:not(:last-child)::after {
-  content: ',';
-}
-
-.trending .emoji {
+.trending-emoji {
   vertical-align: sub;
 }
 
