@@ -60,10 +60,10 @@ article {
   align-items: center;
   text-align: center;
   background-color: white;
-  padding: 30px 45px;
   color: #4A4A4A;
   font-size: 18px;
   line-height: 1.5em;
+  padding: 20px;
 }
 
 @media (max-width: 449px) {
@@ -82,6 +82,7 @@ article {
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 30px 45px;
     margin-top: 40px;
     transform: translate(-50%,-50%);
     margin: 0 auto;
