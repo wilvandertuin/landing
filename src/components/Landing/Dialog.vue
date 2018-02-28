@@ -5,10 +5,12 @@
     <h1>Jeroen van der Tuin</h1>
     <h2>Remote Front-end Web App Developer</h2>
 
-    <p>
-      Currently trending topics:  Vue.js, CSS Grid, VS Code
-      <img src="@/assets/emoji-rock.png" class="emoji" alt=""/>
-    </p>
+    <div class="trending">
+      <p>
+        Currently trending topics:  Vue.js, CSS Grid, VS Code
+        <img src="@/assets/emoji-rock.png" class="emoji" alt=""/>
+      </p>
+    </div>
 
     <p>
       <a class="email" href="mailto:jeroen@vandertuin.nl">jeroen@vandertuin.nl</a>
@@ -53,29 +55,40 @@
 }
 
 article {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: 40px;
-  transform: translate(-50%,-50%);
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   background-color: white;
-  border-radius: 5px;
-  width: 376px;
-  max-width: 100%;
-  max-height: 100%;
-  overflow-y: auto;
   padding: 30px 45px;
   color: #4A4A4A;
   font-size: 18px;
   line-height: 1.5em;
-  box-shadow: 0 40px 100px rgba(0,0,0,.4);
-  animation: .5s article-appear ease-out;
-  will-change: opacity, margin;
+}
+
+@media (max-width: 449px) {
+  article {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 450px) {
+  article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 376px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 40px 100px rgba(0,0,0,.4);
+    animation: .5s article-appear ease-out;
+    will-change: opacity, margin;
+  }
 }
 
 .avatar {
@@ -102,6 +115,10 @@ h2 {
   font-weight: normal;
   font-size: 18px;
   max-width: 200px;
+}
+
+.trending {
+  flex-grow: 1;
 }
 
 .trending-emoji {
