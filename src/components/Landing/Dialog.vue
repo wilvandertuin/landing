@@ -19,22 +19,22 @@
     <ul class="social">
       <li>
         <a href="https://codepen.io/Jeromche">
-          <img src="@/assets/icon-codepen.png" alt="CodePen" style="width: 24px; height: 24px"/>
+          <img src="@/assets/icon-codepen.png" alt="CodePen"/>
         </a>
       </li>
       <li>
         <a href="https://github.com/jeromche">
-          <img src="@/assets/icon-github.svg" alt="Github" style="width: 24px; height: 24px"/>
+          <img src="@/assets/icon-github.svg" alt="Github"/>
         </a>
       </li>
       <li>
         <a href="https://twitter.com/jeromche">
-          <img src="@/assets/icon-twitter.svg" alt="Twitter" style="width: 24px; height: 24px"/>
+          <img src="@/assets/icon-twitter.svg" alt="Twitter"/>
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/jeromche" title="LinkedIn">
-          <img src="@/assets/icon-linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px"/>
+          <img src="@/assets/icon-linkedin.png" alt="LinkedIn"/>
         </a>
       </li>
     </ul>
@@ -145,5 +145,10 @@ h2 {
 .social a {
   display: inline-block;
   padding: 10px;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
 }
 </style>
