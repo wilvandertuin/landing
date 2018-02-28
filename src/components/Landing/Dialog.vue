@@ -83,7 +83,7 @@ article {
   height: 100px;
   border-radius: 100px;
   background-color: #eee;
-  background-image: url('../../assets/avatar.png');
+  background-image: url('../../assets/avatar.jpg');
   background-size: cover;
   margin-bottom: 25px;
 }
