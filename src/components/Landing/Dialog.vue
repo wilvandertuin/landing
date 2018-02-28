@@ -13,7 +13,7 @@
     </div>
 
     <p>
-      <a class="email" href="mailto:jeroen@vandertuin.nl">jeroen@vandertuin.nl</a>
+      <a class="email" href="mailto:jeroen.vandertuin@gmail.com">jeroen.vandertuin@gmail.com</a>
     </p>
 
     <ul class="social">
