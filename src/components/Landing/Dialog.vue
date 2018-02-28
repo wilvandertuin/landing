@@ -81,6 +81,8 @@ article {
 .avatar {
   width: 100px;
   height: 100px;
+  flex-basis: 100px;
+  flex-shrink: 0;
   border-radius: 100px;
   background-color: #eee;
   background-image: url('../../assets/avatar.jpg');
