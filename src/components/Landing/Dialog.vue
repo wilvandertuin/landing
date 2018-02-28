@@ -7,7 +7,7 @@
 
     <div class="trending">
       <p>
-        Currently trending topics:  Vue.js, CSS Grid, VS Code
+        Vue.js, CSS Grid, VS Code
         <img src="@/assets/emoji-rock.png" class="emoji" alt=""/>
       </p>
     </div>
