@@ -5,13 +5,6 @@
     <h1>Jeroen van der Tuin</h1>
     <h2>Remote Front-end Web App Developer</h2>
 
-    <div class="trending">
-      <p>
-        Vue.js, CSS Grid, VS Code
-        <img src="@/assets/emoji-rock.png" class="emoji" alt=""/>
-      </p>
-    </div>
-
     <p>
       <a class="email" href="mailto:jeroen@vandertuin.nl">jeroen@vandertuin.nl</a>
     </p>
@@ -121,14 +114,6 @@ h2 {
   font-weight: normal;
   font-size: 18px;
   max-width: 200px;
-}
-
-.trending {
-  flex-grow: 1;
-}
-
-.trending-emoji {
-  vertical-align: sub;
 }
 
 .email {
